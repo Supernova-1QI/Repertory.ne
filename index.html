@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Meu portfólio</title>
+</head>
+
+<body>
+    <header class="container text-center">
+        <img src="img/me.jpg" alt="avatar da Fernanda" class="rounded-circle" width="150" height="150"
+            srcset="">
+        <p class="lead">Eu sou o Sadao</p>
+        <h1>Eu Aprendo Programação</h1>
+        <p>Sou um estudante vívido que consegue aprender rapidamente o que me é passado e
+            pode lhe passar meus conhecimentos sobre programação!
+        </p>
+        <p>Minhas habilidades</p>
+        <div>
+            <p class="badge bg-secondary">HTML</p>
+            <p class="badge bg-secondary">CSS</p>
+            <p class="badge bg-secondary">JavaScript</p>
+            <p class="badge bg-secondary">Scratch</p>
+        </div>
+    </header>
+    <main class="container mt-5">
+        <h2>Meus projetos</h2>
+        <div class="row">
+            <!-- Projeto 1 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="img/projeto-1.png" class="card-img-top" alt="Imagem do projeto de biblioteca virtual">
+                    <div class="card-body">
+                        <h5 class="card-title">Site Criativo:Alura Start</h5>
+                        <p class="card-text">O projeto é uma página web criada com HTML e CSS, destinada a exibir uma turma do Alura fictícia
+                            de alunos e Alunas, além de explicar um pouco sobre o alurastart.
+                        </p>
+                        <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal1">Veja
+                            o projeto</button>
+                    </div>
+                </div>
+            </div>
+            <!-- Projeto 2 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="img/projeto-2.png" class="card-img-top" alt="Imagem do projeto de biblioteca virtual">
+                    <div class="card-body">
+                        <h5 class="card-title">Meus Estudos: Uma Webpage Personalizada
+                        </h5>
+                        <p class="card-text">Este projeto é um jogo interativo baseado em navegador que explora o
+                            impacto e as implicações da Inteligência Artificial (IA) na sociedade, permitindo que as
+                            pessoas jogadoras façam escolhas que influenciam o desenrolar de uma narrativa sobre o
+                            futuro da IA.</p>
+                        <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal2">Veja
+                            o projeto</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Projeto 3 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="img/projeto-3.png" class="card-img-top" alt="Imagem do projeto de biblioteca virtual">
+                    <div class="card-body">
+                        <h5 class="card-title"> Assinatura: Uma Webpage persuasiva
+                        </h5>
+                        <p class="card-text">Este projeto Scratch cria uma experiência interativa educativa sobre
+                            astronomia, permitindo aos usuários explorar informações sobre constelações, eclipses, e a
+                            forma da Terra através de cenários dinâmicos e diálogos informativos.
+                        </p>
+                        <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal3">Veja
+                            o projeto</button>
+                    </div>
+                </div>
+            </div>
+            <!-- Projeto 4 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="img/projeto-4.png" class="card-img-top" alt="Imagem do projeto de biblioteca virtual">
+                    <div class="card-body">
+                        <h5 class="card-title">Site Home: O site principal
+                        </h5>
+                        <p class="card-text">Este projeto Scratch cria uma experiência interativa educativa sobre
+                            astronomia, permitindo aos usuários explorar informações sobre constelações, eclipses, e a
+                            forma da Terra através de cenários dinâmicos e diálogos informativos.
+                        </p>
+                        <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal4">Veja
+                            o projeto</button>
+                    </div>
+                </div>
+            </div>
+            <!-- Projeto 5 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="img/projeto-5.png" class="card-img-top" alt="Imagem do projeto de biblioteca virtual">
+                    <div class="card-body">
+                        <h5 class="card-title">Concurso Agrinho: Site concorrente
+                        </h5>
+                        <p class="card-text">Este projeto Scratch cria uma experiência interativa educativa sobre
+                            astronomia, permitindo aos usuários explorar informações sobre constelações, eclipses, e a
+                            forma da Terra através de cenários dinâmicos e diálogos informativos.
+                        </p>
+                        <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal5">Veja
+                            o projeto</button>
+                    </div>
+                </div>
+            </div>
+            
+
+        </div>
+    </main>
+
+    <!-- Modal 1 -->
+    <div class="modal" id="modal1" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Site Criativo:Alura Start</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>O projeto é uma página web criada com HTML e CSS, destinada a exibir uma turma do Alura fictícia
+                        de alunos e Alunas, além de explicar um pouco sobre o alurastart.</p>
+                    <p>A estrutura do site é baseada em HTML, que define a semântica e o layout do conteúdo,
+                        enquanto o CSS é usado para estilizar a página visualmente, incluindo cores, tipografia e a
+                        disposição dos elementos.</p>
+                    <p>O HTML organiza o conteúdo em um cabeçalho com o título do site, seguido por uma divisão
+                        principal (.container) que apresenta o propósito do site e a coleção de alunos e alunas em uma seção
+                        flexível. Cada aluno é destacado em seu próprio contêiner, mostrando uma
+                        imagem genérica de profile, além de ícones de contato.
+                    </p>
+                    <p>O CSS personaliza o visual do site, usando variáveis para cores, estilizando o texto com uma
+                        fonte importada do Google Fonts e aplicando um esquema de cores suaves e botões interativos.
+                        O uso de HTML e CSS é importante pois assim é possível criar um site acessível e
+                        esteticamente agradável sem a necessidade de scripts complexos, com foco na usabilidade e na
+                        experiência da pessoa usuária. A escolha da tipografia e do esquema de cores contribui para
+                        a atmosfera acolhedora do site, incentivando saber mais de cada aluno.</p>
+                    <img src="img/projeto-1.png" class="img-fluid w-100"
+                        alt="Imagem representativa do projeto de uma biblioteca online">
+                </div>
+                <div class="modal-footer">
+                    <a href="Meus projetos/Projeto1/site-criativo-alura-aula-6/index.html">Ver projeto ao vivo</a>
+                    <a href="https://github.com/Supernova042/Alura-Site.2">Ver código do projeto</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal 2 -->
+    <div class="modal" id="modal2" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Meus Estudos: Uma Webpage Personalizada</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>O projeto consiste em uma aplicação web informativa, desenvolvida com HTML, CSS e JavaScript, que
+                         apresenta como tema central um sistema de perguntas e respostas. O objetivo é
+                        apresentar aos estudantes em uma página com vários cartões de perguntas para eles responderem mentalmente e ao se  certificarem da
+                        sua resposta final poderão clicar no cartão que mostrará a resposta correta.
+                    </p>
+                    <p>O HTML estrutura o conteúdo da página, dividindo-o em seções como a tela inicial, caixa de
+                        perguntas, alternativas de resposta, e o resultado final baseado nas escolhas do jogador. O CSS
+                        é utilizado para estilizar a página, empregando um background futurista e layout
+                        responsivo para melhorar a experiência do usuário. JavaScript é usado para adicionar
+                        interatividade ao jogo, manipulando o conteúdo da página conforme as
+                        escolhas do jogador, e determinando o estado do cartão através de uma série de escolhas.
+                    </p>
+                    <p>O HTML organiza o conteúdo em um cabeçalho com o título do site, seguido por uma divisão
+                        principal que apresenta o propósito do site.
+                    </p>
+                    
+                    
+                    <img src="img/projeto-2.png" class="img-fluid w-100"
+                        alt="Imagem representativa do projeto de uma biblioteca online">
+                </div>
+                <div class="modal-footer">
+                    <a href="Meus projetos/Projeto2/flashcard-aula_10/index.html">Ver projeto ao
+                        vivo</a>
+                    <a href="https://github.com/Supernova-1QI/Alura.quest-es">Ver código do
+                        projeto</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal 3 -->
+    <div class="modal" id="modal3" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Assinatura: Uma Webpage persuasiva</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>O projeto é uma demonstração interativa construida em HTML e CSS focada em persuadir o usuário uma página central do nosso o usuário do site
+                        a assinar a assinatura. Utiliza uma série de scripts associados a diferentes imagens e
+                        plano de fundo para criar uma sensação de profissional. O objetivo é mostrar 
+                        os usuários vários tópicos como as ofertas, patrocinadores, a visibilidade de diferentes
+                        tipos de midias dependendo do dispositivo, através
+                        de interações e visualizações dinâmicas, entre outros.</p>
+                    <p>A importância das ferramentas utilizadas, como a persuasão nos textos,
+                        reside na sua acessibilidade e na capacidade de engajar os visitantes de diferentes idades
+                        no site e na exploração das diversas formas de plqanos de forma
+                        engajativa. O uso de imagen,  dinâmicos ajuda a criar uma
+                        experiência mais rica e memorável, encorajando os usuários a explorar e
+                        saber mais, em vez de passivamente.</p>
+                    <img src="img/projeto-3.png" alt="Projeto 3" class="img-fluid w-100">
+                </div>
+                <div class="modal-footer">
+                    <a href="Meus projetos/Projeto3/alura-plus-Aula-14/index.html">Ver projeto ao vivo</a>
+                    <a href="https://github.com/Supernova-1QI/Alura-escola">Ver código do
+                        projeto</a>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+    <!-- Modal 4 -->
+    <div class="modal" id="modal4" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Site Home: O site principal</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>O projeto é uma demonstração interativa construida em HTML e CSS focada em ser uma página principal e para o usuário uma página central do nosso serviço 
+                        e empresa. Utiliza uma série de scripts associados a diferentes imagens e
+                        plano de fundo para criar uma sensação de profissional.Foi usado também um script de fora para criar uma espéciede carrocel, com cada imagem mostrando
+                        jogos variados.O objetivo do  site é mostrar 
+                        os usuários vários tópicos como as ofertas, patrocinadores, a visibilidade de diferentes
+                        tipos de midias dependendo do dispositivo, através
+                        de interações e visualizações dinâmicas, entre outros.</p>
+                    <p>A importância das ferramentas utilizadas, como a persuasão nos textos,
+                        reside na sua acessibilidade e na capacidade de engajar os visitantes de diferentes idades
+                        no site e na exploração das diversas formas de plqanos de forma
+                        engajativa. O uso de imagen,  dinâmicos ajuda a criar uma
+                        experiência mais rica e memorável, encorajando os usuários a explorar e
+                        saber mais, em vez de passivamente.</p>
+                    <img src="img/projeto-4.png" alt="Projeto 3" class="img-fluid w-100">
+                </div>
+                <div class="modal-footer">
+                    <a href="Meus projetos/Projeto4/alura-books-aula20/index.html">Ver projeto ao vivo</a>
+                    <a href="https://github.com/Supernova-1QI/AluraBooks.responsividade">Ver código do
+                        projeto</a>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+    <!-- Modal 5 -->
+    <div class="modal" id="modal5" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Concurso Agrinho: Site concorrente</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>O projeto é uma demonstração interativa construida em HTML e CSS focada em mostrar aos juízes uma página centrada na nossa proposta do site
+                        ,uma página webinformativa sobre renovação com a natureza. Utiliza uma série de scripts associados a diferentes imagens e
+                        plano de fundo mais verde,para dar uma sensação de natureza.Foi usado também um script de fora para criar uma espécie de carrocel, com cada imagem mostrando um tipo de sustentabilidade. O objetivo é informar
+                        os juízes com tópicos como as o que é sustentabilidade, os tipos de sustentabilidade, a visibilidade de diferentes
+                        tipos de midias dependendo do dispositivo, orgãos ambientais, um jogo do scratch e visualizações dinâmicas.</p>
+                    
+                    <img src="img/projeto-5.png" alt="Projeto 3" class="img-fluid w-100">
+                </div>
+                <div class="modal-footer">
+                    <a href="Meus projetos/Projeto5/Agrinho-site/agrinho-concorrente/index.html">Ver projeto ao vivo</a>
+                    <a href="https://github.com/Supernova-1QI/Agrinho_site">Ver código do
+                        projeto</a>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+    <footer class="container py-5">
+        <h2>Entre em contato</h2>
+        <div>
+            <i class="bi bi-github"></i>
+            <a href="https://github.com/Supernova-1QI">GitHub</a>
+        </div>
+        <p class="my-5 text-center">© Copyright 2024. Produzido por Matheus Sadao</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
